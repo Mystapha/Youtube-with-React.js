@@ -1,0 +1,36 @@
+.exp{
+    background-color: rgb(230, 222, 222);
+    border-radius: 5px;
+    width: 61%;
+    height: 250px;
+    padding:10px 10px 10px ;
+    margin: 15px 15px 10px 10px;
+}
+.ytd-comments-header-renderer{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+    overflow: hidden;
+    display: block;
+    max-height: 2.8rem;
+    -webkit-line-clamp: 1;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+.comment{
+    display:grid;
+    grid-template-columns: 2fr 6fr;
+    place-items:center;
+}
+.link{
+    text-decoration: none;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight:500;
+    margin-left: -150px;
+}
